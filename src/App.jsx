@@ -4,7 +4,11 @@ import Game from "./components/Game";
 function App() {
   return (
     <>
-      <h1>Memory Flash Game</h1>
+      <div className="game-title">
+        <h1>Memory Flash Game</h1>
+        <hr />
+      </div>
+
       <Game />
     </>
   );
