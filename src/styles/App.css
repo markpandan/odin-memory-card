@@ -1,0 +1,22 @@
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.card {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  max-height: 450px;
+  object-fit: contain;
+}
